@@ -1,0 +1,9 @@
+@import "jquery.fullPage.css";
+/*@import "font.css";
+@import "mixin.css";
+@import "global.css";*/
+
+ul {
+  position: absolute;
+  z-index: 10000;
+}
