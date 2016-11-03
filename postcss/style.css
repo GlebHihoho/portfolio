@@ -1,9 +1,13 @@
-@import "jquery.fullPage.css";
-/*@import "font.css";
 @import "mixin.css";
-@import "global.css";*/
+@import "global.css";
+@import "font.css";
+@import "jquery.fullPage.css";
+@import "blocks/menu.css";
 
-ul {
-  position: absolute;
-  z-index: 10000;
-}
+@import "blocks/section-first.css";
+
+@import "blocks/section-second.css";
+@import "blocks/info.css";
+
+@import "blocks/section-third.css";
+@import "blocks/works.css";
