@@ -1,0 +1,13 @@
+@import "mixin.css";
+@import "global.css";
+@import "font.css";
+@import "jquery.fullPage.css";
+@import "blocks/menu.css";
+
+@import "blocks/section-first.css";
+
+@import "blocks/section-second.css";
+@import "blocks/info.css";
+
+@import "blocks/section-third.css";
+@import "blocks/works.css";

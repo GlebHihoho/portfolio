@@ -1,0 +1,18 @@
+.info {
+  @mixin container;
+  display: flex;
+
+
+  background-color: white;
+}
+
+.info__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__name-row {
+  display: flex;
+  flex: 1;
+}

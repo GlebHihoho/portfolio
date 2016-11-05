@@ -2,9 +2,81 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio Gleb Motuz</title>
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio Gleb Hihoho</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+  <script type="text/javascript" src="js/fullPageDescription.js"></script>
 </head>
 <body>
+  <ul class="main-menu" id="menu">
+    <li class="main-menu__item" data-menuanchor="firstPage"><a class="main-menu__link" href="#firstPage">Gleb Hihoho</a></li>
+    <li class="main-menu__item" data-menuanchor="secondPage"><a class="main-menu__link" href="#secondPage">Info</a></li>
+    <li class="main-menu__item" data-menuanchor="thirdPage"><a class="main-menu__link" href="#thirdPage">Works</a></li>
+  </ul>
+  <div id="fullpage">
+    <div class="section  section-first"></div>
 
+    <div class="section  section-second">
+      <div class="info">
+        <div class="info__header">
+          <div class="info__name-block">
+            <div class="info__name-row">
+              <div class="info__name-prop">Фамилия:</div>
+              <div class="info__name-value">Мотуз</div>
+            </div>
+            <div class="info__name-row">
+              <div class="info__name-prop">Имя:</div>
+              <div class="info__name-value">Глеб</div>
+            </div>
+            <div class="info__name-row">
+              <div class="info__name-prop">Отчество:</div>
+              <div class="info__name-value">Игоревич</div>
+            </div>
+          </div>
+          <div class="info__foto">
+            <img class="info__foto" src="http://placehold.it/250x250">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section  section-third">
+      <div class="works">
+        <div class="works__block">
+          <div class="works__hover-block">
+            <h1 class="works__hover-header">Sedona</h1>
+            <p class="works__hover-description">Двустраничный сайт визитка</p>
+          </div>
+        </div>
+
+        <div class="works__block">
+          <div class="works__hover-block">
+            <h1 class="works__hover-header">Mishka</h1>
+            <p class="works__hover-description">Трёхстраничный сайт магазин <br> с адаптивным дизайном</p>
+          </div>
+        </div>
+
+        <div class="works__block">
+          <div class="works__hover-block">
+            <h1 class="works__hover-header">Sudoku</h1>
+            <p class="works__hover-description">Игра головоломка в космическом стиле</p>
+          </div>
+        </div>
+
+        <div class="works__block">
+          <div class="works__hover-block">
+            <h1 class="works__hover-header">Elita</h1>
+            <p class="works__hover-description">Сайт визитка парикмахерской в одном <br> далёком, тихом городке</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </body>
 </html>
