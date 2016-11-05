@@ -1,3 +1,5 @@
 .section-second {
-  
+  background-color: rgb(240, 31, 144);
+  background-image: url(../img/second-section-bg.jpg);
+  background-repeat: repeat;
 }

@@ -1,18 +1,128 @@
+/* ---------------------------------------- */
+/* ---- Блок контейнер второго слайда ----- */
+/* ---------------------------------------- */
+
 .info {
-  @mixin container;
+  width: 960px;
+  margin: 0 auto;
   display: flex;
+  position: relative;
 
-
-  background-color: white;
+  background-color: #f2f2f2;
+  transition-duration: 0.6s;
 }
+
+.info:hover {
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.25);
+  transition-duration: 0.6s;
+  transform: scale(1.03);
+}
+
+.info__border-icon {
+  position: absolute;
+  top: -57px;
+  left: -58px
+}
+
+/* ---------------------------- */
+/* ---- Раздел с навыками ----- */
+/* ---------------------------- */
+
+.info__skills {
+  width: 420px;
+  padding: 0 50px;
+  padding-bottom: 20px;
+  color: #4b4b4d;
+}
+
+/* ---- Шапка навыков ----- */
 
 .info__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @mixin margin-reset;
+  padding: 30px 0;
+
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 }
 
-.info__name-row {
+/* ---- Блок с навыками ----- */
+
+.info__skill-item {
   display: flex;
-  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ---- Лого навыка ----- */
+
+.info__img {
+  /*margin-right: 100px;*/
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.info__img:nth-child(4n) {
+  margin-right: 0;
+}
+
+.info__img:nth-last-child(1) {
+  margin-right: 0;
+}
+
+/* ---------------------------- */
+/* ---- Раздел с контактами --- */
+/* ---------------------------- */
+
+.info__contacts {
+  flex: 10;
+
+  background-color: rgb(240, 31, 144);
+  background-image: url(../img/second-section-contacts-bg.jpg);
+  background-repeat: repeat;
+}
+
+/* ---------------------------- */
+/* --- Раздел с контактами ---- */
+/* ---------------------------- */
+
+.info__contacts {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* ---- Gleb Photo ---- */
+
+.info__my-photo {
+  padding-bottom: 10px;
+}
+
+/* ---- Текст имени ---- */
+
+.info__name {
+  font-size: 25px;
+  line-height: 30px;
+  color: #f2f2f2;
+}
+
+.info__address-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 20px;
+  padding-left: 95px;
+}
+
+.info__link {
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #f2f2f2;
+  transition-duration: 0.6s;
+}
+
+.info__link:hover {
+  color: black;
+  transition-duration: 0.6s;
 }
