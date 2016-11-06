@@ -4,6 +4,29 @@ $(document).ready(function() {
       anchors: ['firstPage', 'secondPage', 'thirdPage'],
 
       menu: '#menu',
-      navigation: true
+      navigation: true,
+
+      onLeave: function(index, nextIndex, direction){
+                  var leavingSection = $(this);
+
+                  if (index == 1 && direction == 'down') {
+                    clearTimeout(timeout);
+                  }
+
+                  //after leaving section 2
+                  else if (index == 2 && direction == 'down') {
+                    clearTimeout(timeout);
+                  }
+
+                  else if (index == 2 && direction == 'up') {
+                    setTimeout(timeout);
+                    start();
+                  }
+
+                  else if (index == 3 && nextIndex == 1 && direction == 'up') {
+                    setTimeout(timeout);
+                    start();
+                  }
+              }
     });
 });
