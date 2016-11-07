@@ -1,6 +1,5 @@
 .section-first {
   overflow: hidden;
-  margin:0;padding:0;
   position: relative;
 
   font-size: 0;
@@ -30,3 +29,33 @@ canvas {
   right: 0;
   bottom: 0;
 }
+
+.section-first__img {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

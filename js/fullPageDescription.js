@@ -13,7 +13,6 @@ $(document).ready(function() {
                     clearTimeout(timeout);
                   }
 
-                  //after leaving section 2
                   else if (index == 2 && direction == 'down') {
                     clearTimeout(timeout);
                   }
