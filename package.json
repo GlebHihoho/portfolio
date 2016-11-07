@@ -25,7 +25,7 @@
     "run-sequence": "^1.2.2"
   },
   "scripts": {
-    "build": "gulp style",
+    "build": "gulp build",
     "start": "gulp serve"
   },
   "engines": {
