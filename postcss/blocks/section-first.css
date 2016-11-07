@@ -1,5 +1,93 @@
 .section-first {
-  background-image: url(../img/section-1.jpg);
+  text-align: center;
+
+  background-image: url(../img/first-section-bg.jpg);
   background-size: auto;
   background-position: 0 0;
+}
+
+/* ----- Изображение ----- */
+
+.section-first__img {
+  margin-bottom: 30px;
+  margin-top: 150px;
+  transition-duration: 1s;
+  transform: scale(0.9);
+}
+
+.section-first__img:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
+}
+
+/* ----- Заголовок ----- */
+
+.section-first__header {
+  position: relative;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  transition-duration: 1s;
+
+  color: #f2f2f2;
+  font-size: 72px;
+  line-height: 75px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-first__header:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.section-first__header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+
+  background-color: rgba(102, 155, 151, 0.5);
+}
+
+/* ----- Текст ----- */
+
+.section-first__text {
+  position: relative;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  transition-duration: 0.6s;
+
+  color: #f2f2f2;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.section-first__text:hover {
+  transform: scale(1.1);
+  transition-duration: 0.6s;
+}
+
+.section-first__text::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+
+  background-color: rgba(102, 155, 151, 0.5);
+}
+
+/* ----- Имя ----- */
+
+.section-first__name {
+  color: #f2f2f2;
+
+  font-size: 20px;
+  line-height: 25px;
 }
