@@ -14,7 +14,10 @@
 
 .works__block {
   width: 550px;
-  height: 275px;
+  height: 200px;
+
+  margin-bottom: 25px;
+
   transition-duration: 0.6s;
 }
 
@@ -48,7 +51,21 @@
 
 .works__block:nth-child(4) {
   background-color: #e74c3c;
-  background-image: url(../img/elita.jpg);
+  background-image: url(../img/keksogram.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.works__block:nth-child(5) {
+  background-color: #e74c3c;
+  background-image: url(../img/belseptik.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.works__block:nth-child(6) {
+  background-color: #e74c3c;
+  background-image: url(../img/cleaning.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -86,10 +103,10 @@
 .works__block:hover .works__hover-header {
   transition-duration: 0.6s;
 
-  transform: translate(50px, 25px);
+  transform: translate(30px, 25px);
 
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .works__hover-description {
@@ -100,8 +117,8 @@
 .works__block:hover .works__hover-description {
   transition-duration: 0.6s;
 
-  transform: translate(50px, 120px);
+  transform: translate(30px, 70px);
 
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 22px;
 }
