@@ -62,6 +62,7 @@
 
 .info__img:nth-last-child(1) {
   margin-right: 0;
+  margin-top: 25px;
 }
 
 /* ---------------------------- */
